@@ -1,0 +1,90 @@
+/* Base Page Styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    background-color: #f8fafc;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #0f172a;
+    border-bottom: 2px solid #cbd5e1;
+    padding-bottom: 8px;
+}
+
+h2 {
+    color: #2563eb;
+    margin-top: 25px;
+    font-size: 1.2rem;
+}
+
+/* 2. Square bullet style */
+.list-square {
+    list-style-type: square;
+}
+
+/* 3. Upper Roman numerals */
+.list-roman {
+    list-style-type: upper-roman;
+}
+
+/* 4. List marker using a small SVG data icon */
+.list-image {
+    list-style-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 10 10'%3E%3Cpolygon points='0,0 10,5 0,10' fill='%232563eb'/%3E%3C/svg%3E");
+}
+
+/* 5. Outside vs Inside marker position */
+.list-outside {
+    list-style-position: outside;
+    background-color: #e2e8f0;
+    padding: 15px 35px;
+    border-left: 4px solid #3b82f6;
+}
+
+.list-inside {
+    list-style-position: inside;
+    background-color: #e2e8f0;
+    padding: 15px 20px;
+    border-left: 4px solid #10b981;
+}
+
+/* 6. Shorthand list-style property */
+.list-shorthand {
+    list-style: circle inside;
+}
+
+/* 7. Styling with background colors, padding, and margin */
+.list-colored {
+    background-color: #eff6ff;
+    padding: 16px 30px;
+    border-radius: 8px;
+    border: 1px solid #bfdbfe;
+    list-style-type: disc;
+}
+
+.list-colored li {
+    color: #1d4ed8;
+    margin: 8px 0;
+    font-weight: 500;
+}
+
+/* 8. Comprehensive Exercise: Web Development Roadmap */
+.roadmap-list {
+    list-style: decimal inside;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 450px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.roadmap-list li {
+    color: #334155;
+    background-color: #f1f5f9;
+    margin: 10px 0;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-weight: 600;
+}
